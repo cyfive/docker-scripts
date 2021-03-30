@@ -42,7 +42,7 @@ function usage() {
     echo "  $0 -c|--container <container name or id> <command>"
     echo
     echo " -c | --container run command in container namespace with name or id, if empty in all namespaces."
-    echo " command to run in namespace. default is empty."
+    echo " command to run in namespace. Default value is empty."
     echo " -h | --help show this help"
     echo
 }

@@ -37,8 +37,9 @@ function usage() {
     echo "Usage:"
     echo "  $0 -c|--container <container name or id>"
     echo
-    echo " -c | --container show interface for container with name or id"
-    echo " -h | --help show this help"
+    echo " -c | --container show interface for container with name or id. Default value is empty."
+    echo " -h | --help show this help."
+    echo
 }
 
 if [ -z "$only_container" ]; then
